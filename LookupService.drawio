@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T06:57:39.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="nIq1DHcU2FnpcSOAhpXQ" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T05:36:07.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Y_ZYe-fzzoF6kHdmrn-y" version="15.1.4" type="github">
   <diagram id="IL_mM1gIvbstTeOMvLZC" name="Page-1">
     <mxGraphModel dx="1426" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="260" y="160" width="420" height="240" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="500" width="410" height="140" as="geometry" />
+          <mxGeometry x="270" y="500" width="264" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="288" y="190" width="76" height="190" as="geometry" />
@@ -41,10 +41,7 @@
           <mxGeometry x="300" y="45" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-15" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#99CCFF;" parent="1" vertex="1">
-          <mxGeometry x="305" y="655" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gWDNcxBYeCoUoLH7jfs3-16" value="&lt;b&gt;KDB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="315" y="690" width="40" height="20" as="geometry" />
+          <mxGeometry x="590.63" y="584" width="51.25" height="67" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-17" value="&lt;b&gt;Actor KDB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="475" width="70" height="20" as="geometry" />
@@ -76,20 +73,22 @@
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-23" value="ODF" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="720" y="177.5" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jHvEGmgFJhY84yqwyBK8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gWDNcxBYeCoUoLH7jfs3-24" target="gWDNcxBYeCoUoLH7jfs3-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jHvEGmgFJhY84yqwyBK8-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gWDNcxBYeCoUoLH7jfs3-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616" y="582" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-24" value="Quote Reader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="541.25" y="680" width="112.5" height="30" as="geometry" />
+          <mxGeometry x="560" y="520" width="112.5" height="32" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gWDNcxBYeCoUoLH7jfs3-26" target="gWDNcxBYeCoUoLH7jfs3-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-26" value="Quote Reader Datasource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="547.5" y="540" width="100" height="40" as="geometry" />
+          <mxGeometry x="399" y="516" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-27" value="KDB Datasource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="407.5" y="540" width="95" height="40" as="geometry" />
+          <mxGeometry x="407.5" y="573" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gWDNcxBYeCoUoLH7jfs3-36" value="Forward to actor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="430" width="100" height="20" as="geometry" />
@@ -157,6 +156,9 @@
         </mxCell>
         <mxCell id="jHvEGmgFJhY84yqwyBK8-36" value="Future" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="186" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jHvEGmgFJhY84yqwyBK8-43" value="&lt;b&gt;KDB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="599" y="619" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
